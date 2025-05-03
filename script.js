@@ -1,4 +1,4 @@
-emailjs.init("TON_USER_ID"); // Remplace par ton vrai User ID EmailJS
+emailjs.init("AATQVLMcBJaRBgEox"); // Remplace par ton vrai User ID EmailJS
 
 document.getElementById("formulaire-concours").addEventListener("submit", function (e) {
   e.preventDefault();
@@ -10,7 +10,7 @@ document.getElementById("formulaire-concours").addEventListener("submit", functi
     return;
   }
 
-  emailjs.send("TON_SERVICE_ID", "TON_TEMPLATE_ID", {
+  emailjs.send("service_cnubxfb", "template_00u7aki", {
     prenom: document.getElementById("prenom").value,
     nom: document.getElementById("nom").value,
     courriel: document.getElementById("courriel").value,
